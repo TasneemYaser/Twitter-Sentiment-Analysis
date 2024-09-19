@@ -12,14 +12,16 @@ Removal of stop words, digits, special characters, and punctuation.
 Tweets are tokenized into words, and each word is represented by its FastText embedding (300-dimensional vector).
 ## Models
 **1. First CNN Model**
-Architecture:
+
+**Architecture:**
 
 - Convolutional layers with kernel sizes of 2, 3, and 5.
 - 265 filters in each layer.
 - Batch normalization and global max-pooling layers.
 - Dense layer with a sigmoid activation function for binary classification.
 - Input size: sequences of word embeddings with a fixed length of 18 and dimensionality of 300.
-Performance:
+  
+**Performance:**
 
 - Accuracy: 73%
 - Precision:
@@ -33,7 +35,8 @@ Performance:
    Positive: 71%
    
 **2. Second CNN Model:**
-Architecture:
+
+**Architecture:**
 
 - Convolutional layers with varying kernel sizes of 2, 4, 6, and 10.
 - Number of filters: 64, 128, and 265.
@@ -41,7 +44,8 @@ Architecture:
 - Batch normalization and global max-pooling.
 - Dense layer with a sigmoid activation function.
 - Input size: sequences of word embeddings with a fixed length of 18 and dimensionality of 300.
-Performance:
+
+**Performance:**
 
 - Accuracy: 74%
 - Precision:
@@ -56,10 +60,12 @@ Performance:
    Positive: 77%
 
 **3. VGG-16 Model:**
-Architecture:
+
+**Architecture:**
 
 Based on the popular VGG-16 architecture.
-Performance:
+
+**Performance:**
 
 - Accuracy: 75%
 - Precision:
