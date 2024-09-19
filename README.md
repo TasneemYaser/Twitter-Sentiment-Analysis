@@ -82,7 +82,17 @@ Based on the popular VGG-16 architecture.
 Each model captures n-gram features differently, and their performances indicate varying strengths in accuracy, precision, and recall metrics. The VGG-16 model, although more complex, achieved the highest recall, indicating better sensitivity to correctly identifying positive tweets.
 
 ## confusion matrix
+**First model:**
+
 ![first](https://github.com/TasneemYaser/Twitter-Sentiment-Analysis/blob/63a71efd6cf446ea61157d522175316d9cf72242/images/first.PNG)
+
+**Second model:**
+
+![seconed](https://github.com/TasneemYaser/Twitter-Sentiment-Analysis/blob/c78d113379f108da95804ed9f5aa2cde99605a7d/images/seconed.PNG)
+
+**VGG-16 Model:**
+
+![thired](https://github.com/TasneemYaser/Twitter-Sentiment-Analysis/blob/c78d113379f108da95804ed9f5aa2cde99605a7d/images/thired.PNG)
 
 ## Results
 **First CNN Model:** Balanced performance across accuracy and precision.
