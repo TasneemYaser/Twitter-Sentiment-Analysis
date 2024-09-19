@@ -23,13 +23,14 @@ Performance:
 
 - Accuracy: 73%
 - Precision:
-   Negative: 0.72
+  
+   Negative: 72%
    
-   Positive: 0.75
+   Positive: 75%
 - Recall:
-   Negative: 0.76
+   Negative: 76%
    
-   Positive: 0.71
+   Positive: 71%
    
 **2. Second CNN Model:**
 Architecture:
@@ -44,10 +45,12 @@ Performance:
 
 - Accuracy: 74%
 - Precision:
+  
    Negative: 75%
   
    Positive: 73%
 - Recall:
+
    Negative: 71%
   
    Positive: 77%
@@ -60,10 +63,12 @@ Performance:
 
 - Accuracy: 75%
 - Precision:
+  
    Negative: 77%
   
    Positive: 73%
 - Recall:
+  
    Negative: 70%
   
    Positive: 79%
